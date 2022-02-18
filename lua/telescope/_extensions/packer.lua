@@ -51,6 +51,7 @@ local plugins = function(opts)
 
 	pickers.new(opts, {
 		prompt_title = "Plugins",
+		prompt_prefix = " > ",
 		finder = finders.new_table({
 			results = results,
 			entry_maker = function(entry)
